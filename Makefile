@@ -10,6 +10,7 @@ setup: clean
 	chmod +x ./build/phpdoc.phar
 	curl http://get.sensiolabs.org/php-cs-fixer.phar -o ./build/php-cs-fixer.phar
 	chmod +x ./build/php-cs-fixer.phar
+	cp phpunit.xml.dist phpunit.xml
 
 cs:
 	./build/php-cs-fixer.phar fix ./src

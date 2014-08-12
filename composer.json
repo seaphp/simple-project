@@ -1,12 +1,12 @@
 {
     "name": "seaphp/simple-project",
     "description": "A simple, open source, PHP project.",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "license": "MIT",
     "authors": [
         {
             "name": "Seattle PHP User Group",
-            "email": "email@example.com"
+            "email": "admin@seaphp.com"
         }
     ],
     "autoload": {
