@@ -18,4 +18,4 @@ To contribute:
    build passes, we will merge the PR. If it needs more work, we'll let you
    know.
 
-Thanks for your contributions.
+Thanks for your contributions!
