@@ -30,4 +30,14 @@ class CalculatorTest extends \PHPUnit_Framework_TestCase
 
         $this->assertEquals(12, $result);
     }
+
+    public function testDivideBy()
+    {
+        $result = (new Calculator(10))
+            ->divideBy(2)
+            ->getResult();
+
+        $this->assertEquals(5, $result);
+    }
+
 }

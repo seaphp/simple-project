@@ -49,6 +49,21 @@ class Calculator
     }
 
     /**
+     * Divide the calculator's current value by a value.
+     *
+     * @param int $value Value to divide by.
+     *
+     * @return $this
+     */
+    public function divideBy($value)
+    {
+        $this->currentValue /= $value;
+
+        return $this;
+    }
+
+
+    /**
      * Returns the result of the calculator.
      *
      * @return int
