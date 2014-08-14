@@ -1,0 +1,11 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+use SeaPhp\SimpleProject\Command\AddComand;
+use Symfony\Component\Console\Application;
+
+$application = new Application('Jeremy\'s math-doer', '0.0.1-alpha1');
+$application->add(new AddComand());
+$application->run();
