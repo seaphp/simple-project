@@ -64,6 +64,21 @@ class Calculator
 
 
     /**
+     * Multiply the calculator's current value by a value.
+     *
+     * @param int $value Value to multiply by.
+     *
+     * @return $this
+     */
+    public function multiply($value)
+    {
+        $this->currentValue *= $value;
+
+        return $this;
+    }
+
+
+    /**
      * Returns the result of the calculator.
      *
      * @return int

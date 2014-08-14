@@ -40,4 +40,13 @@ class CalculatorTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals(5, $result);
     }
 
+    public function testMultiply()
+    {
+        $result = (new Calculator(10))
+            ->multiply(3)
+            ->getResult();
+
+        $this->assertEquals(30, $result);
+    }
+
 }
